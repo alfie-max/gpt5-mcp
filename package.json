@@ -1,0 +1,19 @@
+{
+  "name": "gpt5-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for GPT-5 API integration - provides text generation and conversation tools",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.1",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["mcp", "server", "gpt5", "openai", "ai"],
+  "author": "",
+  "license": "MIT"
+}
