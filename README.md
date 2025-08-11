@@ -1,5 +1,7 @@
 # GPT-5 MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@alfie-max/gpt5-mcp)](https://smithery.ai/server/@alfie-max/gpt5-mcp)
+
 A Model Context Protocol (MCP) server that provides integration with OpenAI's GPT-5 API through Claude Desktop.
 
 ## Features
@@ -11,6 +13,15 @@ A Model Context Protocol (MCP) server that provides integration with OpenAI's GP
 
 ## Installation
 
+### Installing via Smithery
+
+To install gpt5-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@alfie-max/gpt5-mcp):
+
+```bash
+npx -y @smithery/cli install @alfie-max/gpt5-mcp --client claude
+```
+
+### Manual Installation
 1. Clone this repository:
 ```bash
 git clone https://github.com/alfie-max/gpt5-mcp.git
